@@ -1,0 +1,106 @@
+body{
+    font-family: 'Satisfy', cursive;
+    background-image: url("../img/4958630986_b07166c8fe_b.jpg");
+    background-size:cover;
+}
+
+.container{
+    padding-right:20px;
+    padding-left:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+
+}
+
+@media (min-width:768px){
+    .continer{
+        width:750px;
+    }
+}
+@media (min-width:992px){
+    .continer{
+        width:970px;
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        width:1170px;
+    }
+}
+.start p{
+    font-size:45px;
+}
+.firstname{
+    margin:30px;
+}
+.lastname{
+    margin:30px;
+}
+.email{
+    margin:30px;
+}
+.password{
+    margin:30px;
+}
+.start input{
+    display:block;
+    margin:9px;
+    padding:10px;
+}
+.start label{
+    font-size:25px;
+}
+.submit input{
+    margin-left:60px;
+    width:100px;
+    height:60px;
+    border-radius:6px;
+    color:#133e50;
+   
+}
+span{
+    margin-bottom:300px;
+}
+form{
+    margin-top:100px;
+}
+.other{
+    margin-top:120px;
+    margin-left:200px;
+}
+
+
+.icons{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    
+}
+.google{
+    margin-right:50px;
+    color:#133e50;
+}
+.face{
+    color:#133e50;
+}
+.other p{
+    margin-left: 35px;
+    font-size:27px;
+}
+.other i:hover{
+   font-size:50px;
+   transition:.20s;
+}
+
+.start input:hover{
+    border:3.5px solid #133e50;
+    color:green;
+    transition:.20s;
+    
+}
